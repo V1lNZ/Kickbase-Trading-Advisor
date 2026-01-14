@@ -8,6 +8,7 @@ on:
 jobs:
   run-daily-predictions:
     runs-on: ubuntu-latest
+    environment: Kickbase Details
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
